@@ -1,3 +1,5 @@
+import { determine } from '../utils/determine.js';
+
 export class FailResult {
   outcome: string = 'fail';
   errorMessage: string;
@@ -16,7 +18,7 @@ export class FailResult {
     let errorMessage, fixValue;
     try {
       errorMessage = await pyFailResult?.error_message;
-      fixValue = await pyFailResult?.fix_value;
+      fixValue = await determine<any>(pyFailResult?.fix_value);
     } catch (error) {
       console.error('An error occurred while parsing a FailResult from python to javascript.', error);
     }

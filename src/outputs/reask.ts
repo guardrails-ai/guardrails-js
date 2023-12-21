@@ -1,3 +1,5 @@
+import { determine } from '../utils/determine.js';
+import { map } from '../utils/map.js';
 import { FailResult } from './fail-result.js';
 
 export class ReAsk {
@@ -15,12 +17,10 @@ export class ReAsk {
   static async fromPyReAsk (pyReAsk: any) {
     let incorrectValue, failResults;
     try {
-      incorrectValue = await pyReAsk?.incorrect_value?.valueOf();
+      incorrectValue = await determine<any>(pyReAsk?.incorrect_value);
       const pyFailResults = await pyReAsk?.failResults;
+      failResults = await map(pyFailResults, FailResult.fromPyFailResult);
 
-      if (pyFailResults) {
-        failResults = await Promise.all(pyFailResults.map(FailResult.fromPyFailResult));
-      }
     } catch (error) {
       console.error('An error occurred while parsing a ReAsk from python to javascript.', error);
     }

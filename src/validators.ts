@@ -1,4 +1,4 @@
-import { python } from 'pythonia';
+import { python } from './python.js';
 
 const {
   PydanticFieldValidator,

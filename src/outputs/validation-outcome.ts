@@ -1,8 +1,9 @@
+import { determine } from '../utils/determine.js';
 import { ReAsk } from './reask.js';
 
-export class ValidationOutcome<OutputType> {
+export class ValidationOutcome<T> {
   rawLlmOutput?: string;
-  validatedOutput?: OutputType;
+  validatedOutput?: T;
   reask?: ReAsk;
   validationPassed: boolean;
   error?: string;
@@ -10,7 +11,7 @@ export class ValidationOutcome<OutputType> {
   constructor (
     validationPassed: boolean,
     rawLlmOutput?: string,
-    validatedOutput?: OutputType,
+    validatedOutput?: T,
     reask?: ReAsk,
     error?: string
   ) {
@@ -25,7 +26,7 @@ export class ValidationOutcome<OutputType> {
     let rawLlmOutput, validatedOutput, reask, validationPassed, error;
     try {
       rawLlmOutput = await pyValidationOutcome.raw_llm_output;
-      validatedOutput = await pyValidationOutcome.validated_output?.valueOf();
+      validatedOutput = await determine<OT>(pyValidationOutcome.validated_output);
       const pyReask = await pyValidationOutcome.reask;
       validationPassed = await pyValidationOutcome.validation_passed;
       error = await pyValidationOutcome.error;
