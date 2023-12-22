@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "docs": "npx typedoc src/index.ts",
+    "docs": "rm -rf ./docs; npx typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts",
     "lint": "eslint ./src --quiet",
     "lint-fix": "eslint --fix ./src",
     "postinstall": "python3 -m pip install guardrails-ai",
@@ -46,6 +46,7 @@
     "jest-each": "^29.7.0",
     "ts-jest": "^29.1.1",
     "typedoc": "^0.25.4",
+    "typedoc-plugin-markdown": "^3.17.1",
     "typescript": "^5.3.3"
   },
   "dependencies": {

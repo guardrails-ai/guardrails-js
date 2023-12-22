@@ -1,3 +1,5 @@
+guardrails-ai / [Exports](modules.md)
+
 # guardrails-js
 A Javascript wrapper for guardrails-ai.
 
@@ -18,7 +20,7 @@ The key differences between this wrapper and the python library are as follows:
 
 In addition to above, this library also supports the readonly properties on the [ValidationOutcome class](https://www.guardrailsai.com/docs/api_reference_markdown/validation_outcome) as well as readonly versions of the History & Logs related classes like [Call](https://www.guardrailsai.com/docs/api_reference_markdown/history_and_logs#call-objects), [Iteration](https://www.guardrailsai.com/docs/api_reference_markdown/history_and_logs#iteration-objects), etc..
 
-See the JS docs [here](/docs/modules.md)
+See the JS docs [here]()
 
 ## Example
 ```js
@@ -47,7 +49,6 @@ GUARDRAILS_PROCESS_COUNT="1" node ./my-script-or-app.js
 ```
 
 For the best experience, you may also need to explicitly call for the bridge to exit at the end of the node process.  We export an `exit` function to serve this purpose.
-
 
 Below is a simple end-to-end test we use that demonstrates the concepts above:
 
