@@ -27,9 +27,9 @@ export class ValidatorLogs {
     try {
       validatorName = await pyValidatorLogs?.validator_name;
       valueBeforeValidation = await determine<any>(pyValidatorLogs?.value_before_validation);
-      const pyValidationResult = await pyValidatorLogs?.validation_result;
+      const pyValidationResult = await pyValidatorLogs?.validation_result$;
       validationResult = pyValidationResult && await ValidationResult.fromPyValidationResult(pyValidationResult);
-      valueAfterValidation = await determine<any>(pyValidatorLogs?.value_after_validation);
+      valueAfterValidation = await determine<any>(pyValidatorLogs?.value_after_validation$);
     } catch (error) {
       console.error('An error occurred while parsing ValidatorLogs from python to javascript.', error);
     }

@@ -98,11 +98,7 @@ export class Outputs<T> {
       rawOutput = await determine<string>(pyOutputs?.raw_output);
       parsedOutput = await determine<U>(pyOutputs?.parsed_output);
 
-      const pyValidationOutput = await pyOutputs?.validation_output;
-      const reaskValidationOutput = await ReAsk.fromPyReAsk(pyValidationOutput);
-      validationOutput = reaskValidationOutput.incorrectValue && reaskValidationOutput.failResults.length > 0 ?
-        reaskValidationOutput :
-        await determine<U>(pyValidationOutput);
+      validationOutput = await determine<U | ReAsk>(pyOutputs?.validation_output);
 
       validatedOutput = await determine<U>(pyOutputs?.validated_output);
 

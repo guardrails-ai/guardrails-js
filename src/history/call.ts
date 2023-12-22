@@ -251,7 +251,6 @@ export class Call<T> implements ICall<T> {
       const pyInputs = await pyCall?.inputs;
       inputs = await CallInputs.fromPyCallInputs(pyInputs);
 
-
       prompt = await determine<string>(pyCall?.prompt);
       promptParams = await determine<Dictionary>(pyCall?.prompt_params);
       compiledPrompt = await determine<string>(pyCall?.compiled_prompt);
@@ -283,11 +282,7 @@ export class Call<T> implements ICall<T> {
       const parsedOutputsArray: U[] = await map(pyParsedOutputs, (v: any) => v.valueOf());
       parsedOutputs = new Stack(...parsedOutputsArray);
 
-      const pyValidationOutput = await pyCall?.validation_output;
-      const reaskValidationOutput = await ReAsk.fromPyReAsk(pyValidationOutput);
-      validationOutput = reaskValidationOutput.incorrectValue && reaskValidationOutput.failResults.length > 0 ?
-        reaskValidationOutput :
-        await determine<U>(pyValidationOutput);
+      validationOutput = await determine<U | ReAsk>(pyCall?.validation_output);
 
       fixedOutput = await determine<U>(pyCall?.fixed_output);
       validatedOutput = await determine<U>(pyCall?.validated_output);

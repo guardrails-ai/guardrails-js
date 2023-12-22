@@ -1,4 +1,3 @@
-import { determine } from '../utils/determine.js';
 import { map } from '../utils/map.js';
 import { FailResult } from './fail-result.js';
 
@@ -17,8 +16,9 @@ export class ReAsk {
   static async fromPyReAsk (pyReAsk: any) {
     let incorrectValue, failResults;
     try {
-      incorrectValue = await determine<any>(pyReAsk?.incorrect_value);
-      const pyFailResults = await pyReAsk?.failResults;
+      const incorrectValueRef = await pyReAsk?.incorrect_value$;
+      incorrectValue = await incorrectValueRef?.valueOf();
+      const pyFailResults = await pyReAsk?.fail_results$;
       failResults = await map(pyFailResults, FailResult.fromPyFailResult);
 
     } catch (error) {

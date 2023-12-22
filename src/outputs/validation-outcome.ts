@@ -27,13 +27,9 @@ export class ValidationOutcome<T> {
     try {
       rawLlmOutput = await pyValidationOutcome.raw_llm_output;
       validatedOutput = await determine<OT>(pyValidationOutcome.validated_output);
-      const pyReask = await pyValidationOutcome.reask;
+      reask = await determine<ReAsk>(pyValidationOutcome.reask);
       validationPassed = await pyValidationOutcome.validation_passed;
       error = await pyValidationOutcome.error;
-
-      if (pyReask) {
-        reask = await ReAsk.fromPyReAsk(pyReask);
-      }
     } catch (err) {
       console.error('An error occurred while parsing a ValidationOutcome from python to javascript.', err);
     }

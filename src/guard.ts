@@ -88,7 +88,6 @@ export class Guard<T> {
           ...kwargs
         }
       );
-
       return ValidationOutcome.fromPyValidationOutcome<T>(response);
     } finally {
       await this.cloneProperties();

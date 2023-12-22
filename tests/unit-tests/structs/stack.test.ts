@@ -1,6 +1,6 @@
 import each from 'jest-each';
 import { describe, expect, it } from '@jest/globals';
-import { Stack } from '../../src/structs/stack.js';
+import { Stack } from '../../../src/structs/stack';
 
 
 describe('Stack', () => {

@@ -1,14 +1,11 @@
 import { python } from 'pythonia';
 
-process.on('SIGTERM', () => {
+function exit () {
   // @ts-ignore
-  return python.exit();
-});
-process.on('SIGINT', () => {
-  // @ts-ignore
-  return python.exit();
-});
+  python.exit();
+}
 
 export {
-  python
+  python,
+  exit
 };

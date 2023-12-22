@@ -164,11 +164,7 @@ export class Iteration<T> {
       rawOutput = await determine<string>(pyIteration?.raw_output);
       parsedOutput = await determine<U>(pyIteration?.parsed_output);
 
-      const pyValidationOutput = await pyIteration?.validation_output;
-      const reaskValidationOutput = await ReAsk.fromPyReAsk(pyValidationOutput);
-      validationOutput = reaskValidationOutput.incorrectValue && reaskValidationOutput.failResults.length > 0 ?
-        reaskValidationOutput :
-        await determine<U>(pyValidationOutput);
+      validationOutput = await determine<U | ReAsk>(pyIteration?.validation_output);
 
       validatedOutput = await determine<U>(pyIteration?.validated_output);
 
