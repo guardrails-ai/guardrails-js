@@ -13,6 +13,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "docs": "npx typedoc src/index.ts",
     "lint": "eslint ./src --quiet",
     "lint-fix": "eslint --fix ./src",
     "postinstall": "python3 -m pip install guardrails-ai",
@@ -44,6 +45,7 @@
     "jest": "^29.1.1",
     "jest-each": "^29.7.0",
     "ts-jest": "^29.1.1",
+    "typedoc": "^0.25.4",
     "typescript": "^5.3.3"
   },
   "dependencies": {

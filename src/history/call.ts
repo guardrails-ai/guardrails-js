@@ -7,7 +7,7 @@ import { map } from '../utils/map.js';
 import { CallInputs } from './call-inputs.js';
 import { Iteration } from './iteration.js';
 
-interface ICall<T> {
+export interface ICall<T> {
   iterations?: Stack<Iteration<T>>;
   inputs?: CallInputs;
   prompt?: string;
