@@ -20,6 +20,11 @@ In addition to above, this library also supports the readonly properties on the 
 
 See the JS docs [here](/docs/modules.md)
 
+## Installation
+```sh
+npm i git+https://github.com/guardrails-ai/guardrails-js.git
+```
+
 ## Example
 ```js
 import { Guard, Validators } from 'guardrails-ai';
