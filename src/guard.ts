@@ -5,6 +5,7 @@ import { ValidationOutcome } from './outputs/validation-outcome.js';
 import { Call } from './history/call.js';
 import { Stack } from './structs/stack.js';
 import { map } from './utils/map.js';
+import { isNil } from './utils/is-nil.js';
 
 const { Guard: PyGuard } = await python('guardrails');
 
@@ -78,13 +79,20 @@ export class Guard<T> {
         kwargs
       } = opts;
 
+      if (numReasks && numReasks > 0) {
+        console.warn('Reasking is not yet supported.  The value for numReasks will be ignored and set to 0.');
+      }
+      if (!isNil(fullSchemaReask)) {
+        console.warn('Reasking is not yet supported.  The value for fullSchemaReask will be ignored.');
+      }
+
       const response = await this.pyGuard.parse$(
         llmOutput,
         {
           metadata,
-          num_reasks: numReasks,
+          num_reasks: 0,
           prompt_params: promptParams,
-          full_schema_reask: fullSchemaReask,
+          full_schema_reask: true,
           ...kwargs
         }
       );

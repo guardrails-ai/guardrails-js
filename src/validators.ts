@@ -1,7 +1,6 @@
 import { python } from './python.js';
 
 const {
-  PydanticFieldValidator,
   ValidRange,
   ValidChoices,
   LowerCase,
@@ -36,8 +35,7 @@ const {
   OnTopic
 } = await python('guardrails.validators');
 
-type Validator = typeof PydanticFieldValidator |
-  typeof ValidRange |
+type Validator = typeof ValidRange |
   typeof ValidChoices |
   typeof LowerCase |
   typeof UpperCase |
@@ -72,7 +70,6 @@ type Validator = typeof PydanticFieldValidator |
 
 export {
   Validator,
-  PydanticFieldValidator,
   ValidRange,
   ValidChoices,
   LowerCase,

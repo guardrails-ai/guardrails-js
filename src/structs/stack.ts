@@ -1,19 +1,6 @@
 
 class Stack<T> extends Array<T> {
-  // constructor (length: number);
-  // constructor (...args: T[]);
-  // constructor (...largs: number[] | T[]) {
-  //   if (largs.length === 1 && typeof largs.at(0) === 'number') {
-  //     super(largs.at(0) as number);
-  //   } else if(largs.length > 1) {
-  //     const args = largs as T[];
-  //     super(...args);
-  //   } else {
-  //     super();
-  //   }
-  // }
-
-  static isStack (arg: any): boolean {
+    static isStack (arg: any): boolean {
     return arg instanceof Stack;
   }
 
