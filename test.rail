@@ -1,0 +1,16 @@
+<rail version="0.1">
+    
+<output
+type="string"
+description="A word."
+format="length: 1 10"
+/>
+
+
+<prompt>
+Pick a single word from the below messages with a length betwen 1 and 10.
+
+${messages}
+</prompt>
+    
+</rail>
