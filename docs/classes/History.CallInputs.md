@@ -78,7 +78,7 @@
 
 #### Defined in
 
-[src/history/call-inputs.ts:15](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/call-inputs.ts#L15)
+[src/history/call-inputs.ts:15](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call-inputs.ts#L15)
 
 ## Properties
 
@@ -90,7 +90,7 @@ Additional arguments for the LLM as provided by the user.",
 
 #### Defined in
 
-[src/history/call-inputs.ts:9](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/call-inputs.ts#L9)
+[src/history/call-inputs.ts:9](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call-inputs.ts#L9)
 
 ___
 
@@ -106,7 +106,7 @@ Whether to perform reasks across the entire schema or at the field level.
 
 #### Defined in
 
-[src/history/inputs.ts:36](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/inputs.ts#L36)
+[src/history/inputs.ts:36](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/inputs.ts#L36)
 
 ___
 
@@ -122,7 +122,7 @@ The instructions for chat model calls.
 
 #### Defined in
 
-[src/history/inputs.ts:12](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/inputs.ts#L12)
+[src/history/inputs.ts:12](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/inputs.ts#L12)
 
 ___
 
@@ -134,7 +134,7 @@ Additional keyword-arguments for the LLM as provided by the user.
 
 #### Defined in
 
-[src/history/call-inputs.ts:13](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/call-inputs.ts#L13)
+[src/history/call-inputs.ts:13](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call-inputs.ts#L13)
 
 ___
 
@@ -150,7 +150,7 @@ The string output from an external LLM call provided by the user via Guard.parse
 
 #### Defined in
 
-[src/history/inputs.ts:8](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/inputs.ts#L8)
+[src/history/inputs.ts:8](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/inputs.ts#L8)
 
 ___
 
@@ -166,7 +166,7 @@ The metadata provided by the user to be used during validation.
 
 #### Defined in
 
-[src/history/inputs.ts:32](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/inputs.ts#L32)
+[src/history/inputs.ts:32](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/inputs.ts#L32)
 
 ___
 
@@ -182,7 +182,7 @@ The message history provided by the user for chat model calls.
 
 #### Defined in
 
-[src/history/inputs.ts:20](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/inputs.ts#L20)
+[src/history/inputs.ts:20](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/inputs.ts#L20)
 
 ___
 
@@ -198,7 +198,7 @@ The total number of reasks allowed; user provided or defaulted.
 
 #### Defined in
 
-[src/history/inputs.ts:28](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/inputs.ts#L28)
+[src/history/inputs.ts:28](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/inputs.ts#L28)
 
 ___
 
@@ -214,7 +214,7 @@ The prompt.
 
 #### Defined in
 
-[src/history/inputs.ts:16](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/inputs.ts#L16)
+[src/history/inputs.ts:16](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/inputs.ts#L16)
 
 ___
 
@@ -230,7 +230,7 @@ The parameters provided by the user that will be formatted into the final LLM pr
 
 #### Defined in
 
-[src/history/inputs.ts:24](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/inputs.ts#L24)
+[src/history/inputs.ts:24](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/inputs.ts#L24)
 
 ## Accessors
 
@@ -244,7 +244,7 @@ The parameters provided by the user that will be formatted into the final LLM pr
 
 #### Defined in
 
-[src/history/call-inputs.ts:93](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/call-inputs.ts#L93)
+[src/history/call-inputs.ts:93](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call-inputs.ts#L93)
 
 ___
 
@@ -262,7 +262,7 @@ Inputs.fullSchemaReask
 
 #### Defined in
 
-[src/history/inputs.ts:113](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/inputs.ts#L113)
+[src/history/inputs.ts:113](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/inputs.ts#L113)
 
 ___
 
@@ -282,7 +282,7 @@ Inputs.instructions
 
 #### Defined in
 
-[src/history/call-inputs.ts:90](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/call-inputs.ts#L90)
+[src/history/call-inputs.ts:90](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call-inputs.ts#L90)
 
 ___
 
@@ -296,7 +296,7 @@ ___
 
 #### Defined in
 
-[src/history/call-inputs.ts:96](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/call-inputs.ts#L96)
+[src/history/call-inputs.ts:96](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call-inputs.ts#L96)
 
 ___
 
@@ -314,7 +314,7 @@ Inputs.llmOutput
 
 #### Defined in
 
-[src/history/inputs.ts:92](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/inputs.ts#L92)
+[src/history/inputs.ts:92](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/inputs.ts#L92)
 
 ___
 
@@ -332,7 +332,7 @@ Inputs.metadata
 
 #### Defined in
 
-[src/history/inputs.ts:110](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/inputs.ts#L110)
+[src/history/inputs.ts:110](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/inputs.ts#L110)
 
 ___
 
@@ -350,7 +350,7 @@ Inputs.msgHistory
 
 #### Defined in
 
-[src/history/inputs.ts:101](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/inputs.ts#L101)
+[src/history/inputs.ts:101](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/inputs.ts#L101)
 
 ___
 
@@ -368,7 +368,7 @@ Inputs.numReasks
 
 #### Defined in
 
-[src/history/inputs.ts:107](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/inputs.ts#L107)
+[src/history/inputs.ts:107](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/inputs.ts#L107)
 
 ___
 
@@ -388,7 +388,7 @@ Inputs.prompt
 
 #### Defined in
 
-[src/history/call-inputs.ts:84](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/call-inputs.ts#L84)
+[src/history/call-inputs.ts:84](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call-inputs.ts#L84)
 
 ___
 
@@ -406,7 +406,7 @@ Inputs.promptParams
 
 #### Defined in
 
-[src/history/inputs.ts:104](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/inputs.ts#L104)
+[src/history/inputs.ts:104](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/inputs.ts#L104)
 
 ## Methods
 
@@ -426,7 +426,7 @@ Inputs.promptParams
 
 #### Defined in
 
-[src/history/call-inputs.ts:41](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/call-inputs.ts#L41)
+[src/history/call-inputs.ts:41](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call-inputs.ts#L41)
 
 ___
 
@@ -450,4 +450,4 @@ ___
 
 #### Defined in
 
-[src/history/inputs.ts:58](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/inputs.ts#L58)
+[src/history/inputs.ts:58](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/inputs.ts#L58)

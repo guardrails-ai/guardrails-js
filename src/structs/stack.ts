@@ -1,6 +1,6 @@
 
 class Stack<T> extends Array<T> {
-    static isStack (arg: any): boolean {
+  static isStack (arg: any): boolean {
     return arg instanceof Stack;
   }
 

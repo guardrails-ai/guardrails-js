@@ -20,7 +20,12 @@ The key differences between this wrapper and the python library are as follows:
 
 In addition to above, this library also supports the readonly properties on the [ValidationOutcome class](https://www.guardrailsai.com/docs/api_reference_markdown/validation_outcome) as well as readonly versions of the History & Logs related classes like [Call](https://www.guardrailsai.com/docs/api_reference_markdown/history_and_logs#call-objects), [Iteration](https://www.guardrailsai.com/docs/api_reference_markdown/history_and_logs#iteration-objects), etc..
 
-See the JS docs [here]()
+See the JS docs [here](/docs/modules.md)
+
+## Installation
+```sh
+npm i git+https://github.com/guardrails-ai/guardrails-js.git
+```
 
 ## Example
 ```js

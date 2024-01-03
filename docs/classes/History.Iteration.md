@@ -97,7 +97,7 @@
 
 #### Defined in
 
-[src/history/iteration.ts:98](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L98)
+[src/history/iteration.ts:98](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L98)
 
 ## Properties
 
@@ -109,7 +109,7 @@ Returns the number of completion/output tokens consumed during this iteration.
 
 #### Defined in
 
-[src/history/iteration.ts:38](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L38)
+[src/history/iteration.ts:38](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L38)
 
 ___
 
@@ -121,7 +121,7 @@ The error message from any exception that raised and interrupted this iteration.
 
 #### Defined in
 
-[src/history/iteration.ts:78](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L78)
+[src/history/iteration.ts:78](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L78)
 
 ___
 
@@ -133,7 +133,7 @@ The exception that interrupted this iteration.
 
 #### Defined in
 
-[src/history/iteration.ts:84](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L84)
+[src/history/iteration.ts:84](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L84)
 
 ___
 
@@ -145,7 +145,7 @@ The validator logs for any validations that failed during this iteration.
 
 #### Defined in
 
-[src/history/iteration.ts:90](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L90)
+[src/history/iteration.ts:90](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L90)
 
 ___
 
@@ -157,7 +157,7 @@ The inputs for the iteration/step.
 
 #### Defined in
 
-[src/history/iteration.ts:13](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L13)
+[src/history/iteration.ts:13](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L13)
 
 ___
 
@@ -169,7 +169,7 @@ Returns the logs from this iteration as a stack.
 
 #### Defined in
 
-[src/history/iteration.ts:23](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L23)
+[src/history/iteration.ts:23](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L23)
 
 ___
 
@@ -181,7 +181,7 @@ The outputs from the iteration/step.
 
 #### Defined in
 
-[src/history/iteration.ts:18](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L18)
+[src/history/iteration.ts:18](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L18)
 
 ___
 
@@ -193,7 +193,7 @@ The output from the LLM after undergoing parsing but before validation.
 
 #### Defined in
 
-[src/history/iteration.ts:48](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L48)
+[src/history/iteration.ts:48](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L48)
 
 ___
 
@@ -205,7 +205,7 @@ Returns the number of prompt/input tokens consumed during this iteration.
 
 #### Defined in
 
-[src/history/iteration.ts:33](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L33)
+[src/history/iteration.ts:33](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L33)
 
 ___
 
@@ -217,7 +217,7 @@ The exact output from the LLM.
 
 #### Defined in
 
-[src/history/iteration.ts:43](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L43)
+[src/history/iteration.ts:43](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L43)
 
 ___
 
@@ -230,7 +230,7 @@ These would be incorporated into the prompt or the next LLM call.
 
 #### Defined in
 
-[src/history/iteration.ts:68](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L68)
+[src/history/iteration.ts:68](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L68)
 
 ___
 
@@ -243,7 +243,7 @@ OneOf: pass, fail, error, not run
 
 #### Defined in
 
-[src/history/iteration.ts:96](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L96)
+[src/history/iteration.ts:96](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L96)
 
 ___
 
@@ -255,7 +255,7 @@ Returns the total number of tokens consumed during this iteration.
 
 #### Defined in
 
-[src/history/iteration.ts:28](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L28)
+[src/history/iteration.ts:28](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L28)
 
 ___
 
@@ -269,7 +269,7 @@ Could contain fixed values.
 
 #### Defined in
 
-[src/history/iteration.ts:62](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L62)
+[src/history/iteration.ts:62](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L62)
 
 ___
 
@@ -282,7 +282,7 @@ Could be a combination of valid output and ReAsks
 
 #### Defined in
 
-[src/history/iteration.ts:54](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L54)
+[src/history/iteration.ts:54](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L54)
 
 ___
 
@@ -294,7 +294,7 @@ The results of each individual validation performed on the LLM response during t
 
 #### Defined in
 
-[src/history/iteration.ts:73](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L73)
+[src/history/iteration.ts:73](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L73)
 
 ## Accessors
 
@@ -308,7 +308,7 @@ The results of each individual validation performed on the LLM response during t
 
 #### Defined in
 
-[src/history/iteration.ts:222](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L222)
+[src/history/iteration.ts:222](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L222)
 
 ___
 
@@ -322,7 +322,7 @@ ___
 
 #### Defined in
 
-[src/history/iteration.ts:243](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L243)
+[src/history/iteration.ts:243](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L243)
 
 ___
 
@@ -336,7 +336,7 @@ ___
 
 #### Defined in
 
-[src/history/iteration.ts:246](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L246)
+[src/history/iteration.ts:246](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L246)
 
 ___
 
@@ -350,7 +350,7 @@ ___
 
 #### Defined in
 
-[src/history/iteration.ts:249](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L249)
+[src/history/iteration.ts:249](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L249)
 
 ___
 
@@ -364,7 +364,7 @@ ___
 
 #### Defined in
 
-[src/history/iteration.ts:207](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L207)
+[src/history/iteration.ts:207](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L207)
 
 ___
 
@@ -378,7 +378,7 @@ ___
 
 #### Defined in
 
-[src/history/iteration.ts:213](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L213)
+[src/history/iteration.ts:213](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L213)
 
 ___
 
@@ -392,7 +392,7 @@ ___
 
 #### Defined in
 
-[src/history/iteration.ts:210](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L210)
+[src/history/iteration.ts:210](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L210)
 
 ___
 
@@ -406,7 +406,7 @@ ___
 
 #### Defined in
 
-[src/history/iteration.ts:228](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L228)
+[src/history/iteration.ts:228](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L228)
 
 ___
 
@@ -420,7 +420,7 @@ ___
 
 #### Defined in
 
-[src/history/iteration.ts:219](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L219)
+[src/history/iteration.ts:219](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L219)
 
 ___
 
@@ -434,7 +434,7 @@ ___
 
 #### Defined in
 
-[src/history/iteration.ts:225](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L225)
+[src/history/iteration.ts:225](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L225)
 
 ___
 
@@ -448,7 +448,7 @@ ___
 
 #### Defined in
 
-[src/history/iteration.ts:237](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L237)
+[src/history/iteration.ts:237](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L237)
 
 ___
 
@@ -462,7 +462,7 @@ ___
 
 #### Defined in
 
-[src/history/iteration.ts:252](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L252)
+[src/history/iteration.ts:252](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L252)
 
 ___
 
@@ -476,7 +476,7 @@ ___
 
 #### Defined in
 
-[src/history/iteration.ts:216](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L216)
+[src/history/iteration.ts:216](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L216)
 
 ___
 
@@ -490,7 +490,7 @@ ___
 
 #### Defined in
 
-[src/history/iteration.ts:234](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L234)
+[src/history/iteration.ts:234](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L234)
 
 ___
 
@@ -504,7 +504,7 @@ ___
 
 #### Defined in
 
-[src/history/iteration.ts:231](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L231)
+[src/history/iteration.ts:231](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L231)
 
 ___
 
@@ -518,7 +518,7 @@ ___
 
 #### Defined in
 
-[src/history/iteration.ts:240](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L240)
+[src/history/iteration.ts:240](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L240)
 
 ## Methods
 
@@ -544,4 +544,4 @@ ___
 
 #### Defined in
 
-[src/history/iteration.ts:134](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/history/iteration.ts#L134)
+[src/history/iteration.ts:134](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/iteration.ts#L134)

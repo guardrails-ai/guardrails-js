@@ -56,7 +56,7 @@
 
 #### Defined in
 
-[src/guard.ts:15](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/guard.ts#L15)
+[src/guard.ts:16](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/guard.ts#L16)
 
 ## Properties
 
@@ -66,7 +66,7 @@
 
 #### Defined in
 
-[src/guard.ts:13](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/guard.ts#L13)
+[src/guard.ts:14](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/guard.ts#L14)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[src/guard.ts:12](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/guard.ts#L12)
+[src/guard.ts:13](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/guard.ts#L13)
 
 ## Accessors
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[src/guard.ts:109](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/guard.ts#L109)
+[src/guard.ts:117](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/guard.ts#L117)
 
 ## Methods
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[src/guard.ts:102](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/guard.ts#L102)
+[src/guard.ts:110](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/guard.ts#L110)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-[src/guard.ts:97](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/guard.ts#L97)
+[src/guard.ts:105](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/guard.ts#L105)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[src/guard.ts:68](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/guard.ts#L68)
+[src/guard.ts:69](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/guard.ts#L69)
 
 ___
 
@@ -160,7 +160,7 @@ ___
 
 #### Defined in
 
-[src/guard.ts:20](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/guard.ts#L20)
+[src/guard.ts:21](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/guard.ts#L21)
 
 ___
 
@@ -181,7 +181,7 @@ ___
 
 #### Defined in
 
-[src/guard.ts:32](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/guard.ts#L32)
+[src/guard.ts:33](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/guard.ts#L33)
 
 ___
 
@@ -202,4 +202,4 @@ ___
 
 #### Defined in
 
-[src/guard.ts:46](https://github.com/guardrails-ai/guardrails-js/blob/32d5cab/src/guard.ts#L46)
+[src/guard.ts:47](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/guard.ts#L47)
