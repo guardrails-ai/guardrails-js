@@ -65,9 +65,9 @@ export class Inputs {
       metadata,
       fullSchemaReask;
     try {
-      llmOutput = await determine<string>(pyInputs?.llm_output);
-      instructions = await determine<string>(pyInputs?.instructions);
-      prompt = await determine<string>(pyInputs?.prompt);
+      llmOutput = await pyInputs?.llm_output;
+      instructions = await pyInputs?.instructions;
+      prompt = await pyInputs?.prompt;
       msgHistory = await determine<Dictionary[]>(pyInputs?.msg_history);
       promptParams = await determine<Dictionary>(pyInputs?.prompt_params);
       numReasks = await determine<number>(pyInputs?.num_reasks);

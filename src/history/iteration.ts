@@ -161,7 +161,7 @@ export class Iteration<T> {
       tokensConsumed = await determine<number>(pyIteration?.tokens_consumed);
       promptTokensConsumed = await determine<number>(pyIteration?.prompt_tokens_consumed);
       completionTokensConsumed = await determine<number>(pyIteration?.completion_tokens_consumed);
-      rawOutput = await determine<string>(pyIteration?.raw_output);
+      rawOutput = await pyIteration?.raw_output;
       parsedOutput = await determine<U>(pyIteration?.parsed_output);
 
       validationOutput = await determine<U | ReAsk>(pyIteration?.validation_output);
@@ -174,13 +174,13 @@ export class Iteration<T> {
       const pyValidatorLogs = await pyIteration?.validator_logs;
       validatorLogs = await map(pyValidatorLogs, ValidatorLogs.fromPyValidatorLogs);
 
-      error = await determine<string>(pyIteration?.error);
+      error = await pyIteration?.error;
       exception = await determine<Error>(pyIteration?.exception);
 
       const pyFailedValidations = await pyIteration?.failed_validations;
       failedValidations = await map(pyFailedValidations, ValidatorLogs.fromPyValidatorLogs);
 
-      status = await determine<string>(pyIteration?.status);
+      status = await pyIteration?.status;
     } catch (err) {
       console.error('An error occurred while parsing an Iteration from python to javascript.', err);
     }

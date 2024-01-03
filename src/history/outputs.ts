@@ -95,10 +95,10 @@ export class Outputs<T> {
       const pyLlmResponseInfo = await pyOutputs?.llm_response_info;
       llmResponseInfo = pyLlmResponseInfo && await LLMResponse.fromPyLLMResponse(pyLlmResponseInfo);
 
-      rawOutput = await determine<string>(pyOutputs?.raw_output);
+      rawOutput = await pyOutputs?.raw_output;
       parsedOutput = await determine<U>(pyOutputs?.parsed_output);
 
-      validationOutput = await determine<U | ReAsk>(pyOutputs?.validation_output);
+      validationOutput = await determine<U | ReAsk>(pyOutputs?.validation_output, 'validation_output');
 
       validatedOutput = await determine<U>(pyOutputs?.validated_output);
 
@@ -108,13 +108,13 @@ export class Outputs<T> {
       const pyValidatorLogs = await pyOutputs?.validator_logs;
       validatorLogs = await map(pyValidatorLogs, ValidatorLogs.fromPyValidatorLogs);
 
-      error = await determine<string>(pyOutputs?.error);
+      error = await pyOutputs?.error;
       exception = await determine<Error>(pyOutputs?.exception);
 
       const pyFailedValidations = await pyOutputs?.failed_validations;
       failedValidations = await map(pyFailedValidations, ValidatorLogs.fromPyValidatorLogs);
 
-      status = await determine<string>(pyOutputs?.status);
+      status = await pyOutputs?.status;
     } catch (err) {
       console.error('An error occurred while parsing Outputs from python to javascript.', err);
     }

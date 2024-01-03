@@ -1,4 +1,4 @@
-import { python } from 'pythonia';
+import { python, py } from 'pythonia';
 
 function exit () {
   // @ts-ignore
@@ -7,5 +7,6 @@ function exit () {
 
 export {
   python,
+  py,
   exit
 };

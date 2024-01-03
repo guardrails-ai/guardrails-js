@@ -251,16 +251,16 @@ export class Call<T> implements ICall<T> {
       const pyInputs = await pyCall?.inputs;
       inputs = await CallInputs.fromPyCallInputs(pyInputs);
 
-      prompt = await determine<string>(pyCall?.prompt);
+      prompt = await pyCall?.prompt;
       promptParams = await determine<Dictionary>(pyCall?.prompt_params);
-      compiledPrompt = await determine<string>(pyCall?.compiled_prompt);
+      compiledPrompt = await pyCall?.compiled_prompt;
 
       const pyReaskPrompts = await pyCall?.reask_prompts;
       const reaskPromptsArray: string[] = await map(pyReaskPrompts, (v: any) => v.valueOf());
       reaskPrompts = new Stack<string>(...reaskPromptsArray);
 
-      instructions = await determine<string>(pyCall?.instructions);
-      compiledInstructions = await determine<string>(pyCall?.compiled_instructions);
+      instructions = await pyCall?.instructions;
+      compiledInstructions = await pyCall?.compiled_instructions;
 
       const pyReaskInstructions = await pyCall?.reask_instructions;
       const reaskInstructionsArray: string[] = await map(pyReaskInstructions, (v: any) => v.valueOf());
@@ -295,14 +295,14 @@ export class Call<T> implements ICall<T> {
       const validatorLogsArray: ValidatorLogs[] = await map(pyValidatorLogs, ValidatorLogs.fromPyValidatorLogs);
       validatorLogs = new Stack(...validatorLogsArray);
 
-      error = await determine<string>(pyCall?.error);
+      error = await pyCall?.error;
       exception = await determine<Error>(pyCall?.exception);
 
       const pyFailedValidations = await pyCall?.failed_validations;
       const failedValidationsArray: ValidatorLogs[] = await map(pyFailedValidations, ValidatorLogs.fromPyValidatorLogs);
       failedValidations = new Stack(...failedValidationsArray);
 
-      status = await determine<string>(pyCall?.status);
+      status = await pyCall?.status;
     } catch (err) {
       console.error('An error occurred while parsing a Call from python to javascript.', err);
     }
@@ -344,55 +344,55 @@ export class Call<T> implements ICall<T> {
   public get prompt (): string | undefined {
     return this._prompt;
   }
-  public get prompt_params (): Dictionary | undefined {
+  public get promptParams (): Dictionary | undefined {
     return this._promptParams;
   }
-  public get compiled_prompt (): string | undefined {
+  public get compiledPrompt (): string | undefined {
     return this._compiledPrompt;
   }
-  public get reask_prompts (): Stack<string> {
+  public get reaskPrompts (): Stack<string> {
     return this._reaskPrompts;
   }
   public get instructions (): string | undefined {
     return this._instructions;
   }
-  public get compiled_instructions (): string | undefined {
+  public get compiledInstructions (): string | undefined {
     return this._compiledInstructions;
   }
-  public get reask_instructions (): Stack<string> {
+  public get reaskInstructions (): Stack<string> {
     return this._reaskInstructions;
   }
   public get logs (): Stack<string> {
     return this._logs;
   }
-  public get tokens_consumed (): number | undefined {
+  public get tokensConsumed (): number | undefined {
     return this._tokensConsumed;
   }
-  public get prompt_tokens_consumed (): number | undefined {
+  public get promptTokensConsumed (): number | undefined {
     return this._promptTokensConsumed;
   }
-  public get completion_tokens_consumed (): number | undefined {
+  public get completionTokensConsumed (): number | undefined {
     return this._completionTokensConsumed;
   }
-  public get raw_outputs (): Stack<string> {
+  public get rawOutputs (): Stack<string> {
     return this._rawOutputs;
   }
-  public get parsed_outputs (): Stack<T> {
+  public get parsedOutputs (): Stack<T> {
     return this._parsedOutputs;
   }
-  public get validation_output (): T | ReAsk | undefined {
+  public get validationOutput (): T | ReAsk | undefined {
     return this._validationOutput;
   }
-  public get fixed_output (): T | undefined {
+  public get fixedOutput (): T | undefined {
     return this._fixedOutput;
   }
-  public get validated_output (): T | undefined {
+  public get validatedOutput (): T | undefined {
     return this._validatedOutput;
   }
   public get reasks (): Stack<ReAsk> {
     return this._reasks;
   }
-  public get validator_logs (): Stack<ValidatorLogs> {
+  public get validatorLogs (): Stack<ValidatorLogs> {
     return this._validatorLogs;
   }
   public get error (): string | undefined {
@@ -401,7 +401,7 @@ export class Call<T> implements ICall<T> {
   public get exception (): Error | undefined {
     return this._exception;
   }
-  public get failed_validations (): Stack<ValidatorLogs> {
+  public get failedValidations (): Stack<ValidatorLogs> {
     return this._failedValidations;
   }
   public get status (): string | undefined {

@@ -50,9 +50,9 @@ export class CallInputs extends Inputs {
       args,
       kwargs;
     try {
-      llmOutput = await determine<string>(pyCallInputs?.llm_output);
-      instructions = await determine<string>(pyCallInputs?.instructions);
-      prompt = await determine<string>(pyCallInputs?.prompt);
+      llmOutput = await pyCallInputs?.llm_output;
+      instructions = await pyCallInputs?.instructions;
+      prompt = await pyCallInputs?.prompt;
       msgHistory = await determine<Dictionary[]>(pyCallInputs?.msg_history);
       promptParams = await determine<Dictionary>(pyCallInputs?.prompt_params);
       numReasks = await pyCallInputs?.num_reasks;
