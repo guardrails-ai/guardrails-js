@@ -20,6 +20,8 @@ async function main() {
               <integer name="num_orders" description="The number of orders the user has placed" format="valid-range: 0 50" on-fail-valid-range="fix" />
               <date name="last_order_date" description="Date of last order" />
               <string name="portal_url" description="The url for the portal where the user submitted their order." format="valid-url" on-fail-valid-url="reask" />
+              <string name="user_middle_name" description="The users middle name." format="length: 1" on-fail-length="filter" />
+              <string name="account_is_private" description="The users middle name." format="valid-choices: {['false']}" on-fail-valid-choices="refrain" />
           </object>
       </list>
   </output>
@@ -43,7 +45,10 @@ async function main() {
           "user_name": "Mock User Name",
           "num_orders": 51,
           "last_order_date": "2023-06-28",
-          "portal_url": "not a url"
+          "portal_url": "not a url",
+          // "portal_url": "http://mock-portal.com",
+          "user_middle_name": "Mockerson",
+          "account_is_private": "true"
         }
       ]
     };
