@@ -1,0 +1,60 @@
+{
+  "name": "guardrails-ai",
+  "version": "0.0.0",
+  "description": "A Javascript wrapper for guardrails-ai",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "docs": "rm -rf ./docs; npx typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts",
+    "lint": "eslint ./src --quiet",
+    "lint-fix": "eslint --fix ./src",
+    "postinstall": "python3 -m pip install guardrails-ai",
+    "prepack": "rm -rf ./dist; npm run build",
+    "test": "npm run uts; npm run its;",
+    "uts": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest --detectOpenHandles ./tests/unit-tests",
+    "its": "npm run build; NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest --detectOpenHandles ./tests/integration-tests",
+    "test-cov": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest --detectOpenHandles ./unit-tests --coverage",
+    "test-file": "npm run build; NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest --detectOpenHandles tests/integration-tests/structured-output/rail-string.test.js",
+    "qa": "npm run lint; npm run test-cov;",
+    "e2e": "npm run build; GUARDRAILS_PROCESS_COUNT=\"1\" node e2e.test.js",
+    "debug": "npm run build; GUARDRAILS_PROCESS_COUNT=\"1\" node debug.test.js"
+  },
+  "author": "Guardrails AI",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/guardrails-ai/guardrails-js"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.1.1",
+    "@types/lodash.clonedeep": "^4.5.9",
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-tsdoc": "^0.2.17",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "jest": "^29.1.1",
+    "jest-each": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typedoc": "^0.25.4",
+    "typedoc-plugin-markdown": "^3.17.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0",
+    "pythonia": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
