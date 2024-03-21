@@ -1,4 +1,4 @@
-[guardrails-ai](../README.md) / [Exports](../modules.md) / [History](../modules/History.md) / ICall
+[@guardrails-ai/core](../README.md) / [Exports](../modules.md) / [History](../modules/History.md) / ICall
 
 # Interface: ICall\<T\>
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-[src/history/call.ts:18](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L18)
+[src/history/call.ts:18](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L18)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:15](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L15)
+[src/history/call.ts:15](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L15)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:23](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L23)
+[src/history/call.ts:23](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L23)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:31](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L31)
+[src/history/call.ts:31](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L31)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:32](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L32)
+[src/history/call.ts:32](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L32)
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:33](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L33)
+[src/history/call.ts:33](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L33)
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:27](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L27)
+[src/history/call.ts:27](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L27)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:12](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L12)
+[src/history/call.ts:12](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L12)
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:17](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L17)
+[src/history/call.ts:17](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L17)
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:11](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L11)
+[src/history/call.ts:11](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L11)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:20](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L20)
+[src/history/call.ts:20](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L20)
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:25](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L25)
+[src/history/call.ts:25](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L25)
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:13](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L13)
+[src/history/call.ts:13](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L13)
 
 ___
 
@@ -181,7 +181,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:14](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L14)
+[src/history/call.ts:14](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L14)
 
 ___
 
@@ -191,7 +191,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:22](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L22)
+[src/history/call.ts:22](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L22)
 
 ___
 
@@ -201,7 +201,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:24](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L24)
+[src/history/call.ts:24](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L24)
 
 ___
 
@@ -211,7 +211,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:19](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L19)
+[src/history/call.ts:19](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L19)
 
 ___
 
@@ -221,7 +221,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:16](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L16)
+[src/history/call.ts:16](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L16)
 
 ___
 
@@ -231,7 +231,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:29](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L29)
+[src/history/call.ts:29](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L29)
 
 ___
 
@@ -241,7 +241,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:34](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L34)
+[src/history/call.ts:34](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L34)
 
 ___
 
@@ -251,7 +251,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:21](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L21)
+[src/history/call.ts:21](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L21)
 
 ___
 
@@ -261,7 +261,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:28](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L28)
+[src/history/call.ts:28](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L28)
 
 ___
 
@@ -271,7 +271,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:26](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L26)
+[src/history/call.ts:26](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L26)
 
 ___
 
@@ -281,4 +281,4 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:30](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/history/call.ts#L30)
+[src/history/call.ts:30](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L30)

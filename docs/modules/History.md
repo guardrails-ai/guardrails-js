@@ -1,4 +1,4 @@
-[guardrails-ai](../README.md) / [Exports](../modules.md) / History
+[@guardrails-ai/core](../README.md) / [Exports](../modules.md) / History
 
 # Namespace: History
 

@@ -1,4 +1,4 @@
-[guardrails-ai](../README.md) / [Exports](../modules.md) / Outputs
+[@guardrails-ai/core](../README.md) / [Exports](../modules.md) / Outputs
 
 # Namespace: Outputs
 

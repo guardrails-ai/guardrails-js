@@ -1,6 +1,6 @@
-[guardrails-ai](README.md) / Exports
+[@guardrails-ai/core](README.md) / Exports
 
-# guardrails-ai
+# @guardrails-ai/core
 
 ## Table of contents
 
@@ -32,4 +32,4 @@
 
 #### Defined in
 
-[src/python.ts:3](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/python.ts#L3)
+[src/python.ts:3](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/python.ts#L3)

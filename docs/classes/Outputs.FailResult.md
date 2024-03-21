@@ -1,4 +1,4 @@
-[guardrails-ai](../README.md) / [Exports](../modules.md) / [Outputs](../modules/Outputs.md) / FailResult
+[@guardrails-ai/core](../README.md) / [Exports](../modules.md) / [Outputs](../modules/Outputs.md) / FailResult
 
 # Class: FailResult
 
@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[src/outputs/fail-result.ts:8](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/outputs/fail-result.ts#L8)
+[src/outputs/fail-result.ts:8](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/outputs/fail-result.ts#L8)
 
 ## Properties
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[src/outputs/fail-result.ts:5](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/outputs/fail-result.ts#L5)
+[src/outputs/fail-result.ts:5](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/outputs/fail-result.ts#L5)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[src/outputs/fail-result.ts:6](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/outputs/fail-result.ts#L6)
+[src/outputs/fail-result.ts:6](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/outputs/fail-result.ts#L6)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[src/outputs/fail-result.ts:4](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/outputs/fail-result.ts#L4)
+[src/outputs/fail-result.ts:4](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/outputs/fail-result.ts#L4)
 
 ## Methods
 
@@ -89,4 +89,4 @@ ___
 
 #### Defined in
 
-[src/outputs/fail-result.ts:17](https://github.com/guardrails-ai/guardrails-js/blob/d37ad09/src/outputs/fail-result.ts#L17)
+[src/outputs/fail-result.ts:17](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/outputs/fail-result.ts#L17)

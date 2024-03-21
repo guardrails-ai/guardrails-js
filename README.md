@@ -46,11 +46,6 @@ console.log(response);
 ## Caveats and Oddities
 The current version of the library uses a IO bridge so both javascript and python3 must be available in the environment.
 
-The bridge implementation we use doesn't always work well with multi-processing.  For this reason it is best to set the `GUARDRAILS_PROCESS_COUNT` environment variable to `1` when starting the node process:
-```sh
-GUARDRAILS_PROCESS_COUNT="1" node ./my-script-or-app.js
-```
-
 For the best experience, you may also need to explicitly call for the bridge to exit at the end of the node process.  We export an `exit` function to serve this purpose.
 
 
@@ -99,5 +94,5 @@ await main();
 
 We run this with the following command:
 ```sh
-GUARDRAILS_PROCESS_COUNT="1" node e2e.test.js
+node e2e.test.js
 ```

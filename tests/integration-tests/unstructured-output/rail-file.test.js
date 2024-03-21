@@ -20,12 +20,8 @@ describe('Guard.fromRail', () => {
         }
         );
         
-        
-        // This is wrong
-        // FIXME: update once Call.status is fixed
-        expect(response.validationPassed).toEqual(true);
-        // expect(response.validationPassed).toEqual(false);
-        // expect(response.validatedOutput).toBeUndefined();
+        expect(response.validationPassed).toEqual(false);
+        expect(response.validatedOutput).toBeUndefined();
     });
   });
 });

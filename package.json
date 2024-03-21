@@ -24,8 +24,8 @@
     "test-cov": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest --detectOpenHandles ./unit-tests --coverage",
     "test-file": "npm run build; NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest --detectOpenHandles tests/integration-tests/structured-output/rail-string.test.js",
     "qa": "npm run lint; npm run test-cov;",
-    "e2e": "npm run build; GUARDRAILS_PROCESS_COUNT=\"1\" node e2e.test.js",
-    "debug": "npm run build; GUARDRAILS_PROCESS_COUNT=\"1\" node debug.test.js"
+    "e2e": "npm run build; node e2e.test.js",
+    "debug": "npm run build; node debug.test.js"
   },
   "author": "Guardrails AI",
   "license": "Apache-2.0",
