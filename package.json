@@ -16,7 +16,7 @@
     "docs": "rm -rf ./docs; npx typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts",
     "lint": "eslint ./src --quiet",
     "lint-fix": "eslint --fix ./src",
-    "postinstall": "python3 -m pip install guardrails-ai",
+    "postinstall": "python3 -m pip install guardrails-ai==0.4.2",
     "prepack": "rm -rf ./dist; npm run build",
     "test": "npm run uts; npm run its;",
     "uts": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest --detectOpenHandles ./tests/unit-tests",
