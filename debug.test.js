@@ -13,14 +13,14 @@ async function main() {
   <rail version="0.1">
 
   <output>
-      <list name="user_orders" description="Generate a list of user, and how many orders they have placed in the past." format="length: 1 10" on-fail-length="fix">
+      <list name="user_orders" description="Generate a list of user, and how many orders they have placed in the past." format="hub://guardrails/valid_length: 1 10" on-fail-length="fix">
           <object>
               <string name="user_id" description="The user's id." />
               <string name="user_name" description="The user's first name and last name" format="two-words" on-fail-two-words="reask" />
               <integer name="num_orders" description="The number of orders the user has placed" format="valid-range: 0 50" on-fail-valid-range="fix" />
               <date name="last_order_date" description="Date of last order" />
               <string name="portal_url" description="The url for the portal where the user submitted their order." format="valid-url" on-fail-valid-url="reask" />
-              <string name="user_middle_name" description="The users middle name." format="length: 1" on-fail-length="filter" />
+              <string name="user_middle_name" description="The users middle name." format="hub://guardrails/valid_length: 1" on-fail-length="filter" />
               <string name="account_is_private" description="The users middle name." format="valid-choices: {['false']}" on-fail-valid-choices="refrain" />
           </object>
       </list>

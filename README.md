@@ -16,18 +16,18 @@ The key differences between this wrapper and the python library are as follows:
 1. No support for re-asking (though you can perform reasks yourself outside of the library using `ValidationOutcome.reask` or `guard.history.at(#).reask_prompts` when defined)
 1. LLM calls must be made by the user and the text response passed into parse
 
-In addition to above, this library also supports the readonly properties on the [ValidationOutcome class](https://www.guardrailsai.com/docs/api_reference_markdown/validation_outcome) as well as readonly versions of the History & Logs related classes like [Call](https://www.guardrailsai.com/docs/api_reference_markdown/history_and_logs#call-objects), [Iteration](https://www.guardrailsai.com/docs/api_reference_markdown/history_and_logs#iteration-objects), etc..
+In addition to above, this library also supports the readonly properties on the [ValidationOutcome class](https://www.guardrailsai.com/docs/hub/api_reference_markdown/validation_outcome) as well as readonly versions of the History & Logs related classes like [Call](https://www.guardrailsai.com/docs/api_reference_markdown/history_and_logs#call-objects), [Iteration](https://www.guardrailsai.com/docs/api_reference_markdown/history_and_logs#iteration-objects), etc..
 
 See the JS docs [here](/docs/modules.md)
 
 ## Installation
 ```sh
-npm i git+https://github.com/guardrails-ai/guardrails-js.git
+npm i @guardrails-ai/core
 ```
 
 ## Example
 ```js
-import { Guard, Validators } from 'guardrails-ai';
+import { Guard, Validators } from '@guardrails-ai/core';
 
 const guard = await Guard.fromRail('./my-railspec.rail');
       
@@ -59,7 +59,7 @@ Below is a simple end-to-end test we use that demonstrates the concepts above:
 ```js
 import assert from 'node:assert';
 import process from 'node:process';
-import { Guard, Validators, exit } from './dist/index.js';
+import { Guard, Validators, exit } from '@guardrails-ai/core';
 
 process.on('exit', (code) => {
   console.log(`About to exit with code: ${code}`);
