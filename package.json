@@ -1,6 +1,6 @@
 {
   "name": "@guardrails-ai/core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Javascript wrapper for guardrails-ai",
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",
