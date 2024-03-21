@@ -1,0 +1,45 @@
+name: Build SDK
+
+on:
+  # Only perform manual releases right now
+  # push:
+  #   branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  packages: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        repository: ${{ github.event.pull_request.head.repo.full_name }}
+        ref: ${{ github.event.pull_request.head.ref }}
+
+    - name: Install Dependencies
+      run: npm ci
+      continue-on-error: false
+
+    - name: Build
+      run: npm pack
+      continue-on-error: false
+
+    - name: Tag
+      run: |
+        version="v$(jq -r '.version' ./package.json)"
+        if git rev-parse "$version" >/dev/null 2>&1
+        then
+            echo "Version $version already exist!"
+            echo "Abandoning build..."
+            echo "To complete this release update the version field in the package.json with an appropriate semantic version."
+            exit 1
+        else
+            git tag "$version"
+            git push --tags
+        fi
+
