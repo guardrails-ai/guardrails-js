@@ -234,7 +234,7 @@ node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:316
 
 #### Defined in
 
-[src/structs/stack.ts:35](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/structs/stack.ts#L35)
+[src/structs/stack.ts:35](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/structs/stack.ts#L35)
 
 ___
 
@@ -248,7 +248,7 @@ ___
 
 #### Defined in
 
-[src/structs/stack.ts:29](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/structs/stack.ts#L29)
+[src/structs/stack.ts:29](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/structs/stack.ts#L29)
 
 ___
 
@@ -262,7 +262,7 @@ ___
 
 #### Defined in
 
-[src/structs/stack.ts:32](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/structs/stack.ts#L32)
+[src/structs/stack.ts:32](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/structs/stack.ts#L32)
 
 ___
 
@@ -276,7 +276,7 @@ ___
 
 #### Defined in
 
-[src/structs/stack.ts:38](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/structs/stack.ts#L38)
+[src/structs/stack.ts:38](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/structs/stack.ts#L38)
 
 ## Methods
 
@@ -386,7 +386,7 @@ ___
 
 #### Defined in
 
-[src/structs/stack.ts:24](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/structs/stack.ts#L24)
+[src/structs/stack.ts:24](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/structs/stack.ts#L24)
 
 ___
 
@@ -429,7 +429,7 @@ ___
 
 #### Defined in
 
-[src/structs/stack.ts:7](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/structs/stack.ts#L7)
+[src/structs/stack.ts:7](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/structs/stack.ts#L7)
 
 ___
 
@@ -944,7 +944,7 @@ ___
 
 #### Defined in
 
-[src/structs/stack.ts:11](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/structs/stack.ts#L11)
+[src/structs/stack.ts:11](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/structs/stack.ts#L11)
 
 ___
 
@@ -1184,7 +1184,7 @@ ___
 
 #### Defined in
 
-[src/structs/stack.ts:15](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/structs/stack.ts#L15)
+[src/structs/stack.ts:15](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/structs/stack.ts#L15)
 
 ___
 
@@ -1595,7 +1595,7 @@ ___
 
 #### Defined in
 
-[src/structs/stack.ts:3](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/structs/stack.ts#L3)
+[src/structs/stack.ts:3](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/structs/stack.ts#L3)
 
 ___
 

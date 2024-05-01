@@ -32,4 +32,4 @@
 
 #### Defined in
 
-[src/python.ts:3](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/python.ts#L3)
+[src/python.ts:3](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/python.ts#L3)

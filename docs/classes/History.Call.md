@@ -102,7 +102,7 @@
 
 #### Defined in
 
-[src/history/call.ts:164](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L164)
+[src/history/call.ts:164](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L164)
 
 ## Properties
 
@@ -114,7 +114,7 @@ The initial compiled instructions that were passed to the LLM on the first call.
 
 #### Defined in
 
-[src/history/call.ts:77](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L77)
+[src/history/call.ts:77](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L77)
 
 ___
 
@@ -126,7 +126,7 @@ The initial compiled prompt that was passed to the LLM on the first call.
 
 #### Defined in
 
-[src/history/call.ts:61](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L61)
+[src/history/call.ts:61](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L61)
 
 ___
 
@@ -138,7 +138,7 @@ Returns the total number of completion tokens consumed during all iterations wit
 
 #### Defined in
 
-[src/history/call.ts:104](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L104)
+[src/history/call.ts:104](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L104)
 
 ___
 
@@ -150,7 +150,7 @@ The error message from any exception that raised and interrupted the run.
 
 #### Defined in
 
-[src/history/call.ts:147](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L147)
+[src/history/call.ts:147](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L147)
 
 ___
 
@@ -162,7 +162,7 @@ The exception that interrupted the run.
 
 #### Defined in
 
-[src/history/call.ts:152](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L152)
+[src/history/call.ts:152](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L152)
 
 ___
 
@@ -174,7 +174,7 @@ The validator logs for any validations that failed during the entirety of the ru
 
 #### Defined in
 
-[src/history/call.ts:157](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L157)
+[src/history/call.ts:157](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L157)
 
 ___
 
@@ -186,7 +186,7 @@ The cumulative validation output across all current iterations with any automati
 
 #### Defined in
 
-[src/history/call.ts:125](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L125)
+[src/history/call.ts:125](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L125)
 
 ___
 
@@ -198,7 +198,7 @@ The inputs as passed in to Guard.__call__ or Guard.parse
 
 #### Defined in
 
-[src/history/call.ts:46](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L46)
+[src/history/call.ts:46](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L46)
 
 ___
 
@@ -210,7 +210,7 @@ The instructions as provided by the user when intializing or calling the Guard.
 
 #### Defined in
 
-[src/history/call.ts:72](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L72)
+[src/history/call.ts:72](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L72)
 
 ___
 
@@ -222,7 +222,7 @@ A stack of iterations for each step/reask that occurred during this call.
 
 #### Defined in
 
-[src/history/call.ts:41](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L41)
+[src/history/call.ts:41](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L41)
 
 ___
 
@@ -234,7 +234,7 @@ Returns all logs from all iterations as a stack.
 
 #### Defined in
 
-[src/history/call.ts:89](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L89)
+[src/history/call.ts:89](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L89)
 
 ___
 
@@ -246,7 +246,7 @@ The outputs from the LLM after undergoing parsing but before validation.
 
 #### Defined in
 
-[src/history/call.ts:114](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L114)
+[src/history/call.ts:114](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L114)
 
 ___
 
@@ -258,7 +258,7 @@ The prompt as provided by the user when intializing or calling the Guard.
 
 #### Defined in
 
-[src/history/call.ts:51](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L51)
+[src/history/call.ts:51](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L51)
 
 ___
 
@@ -270,7 +270,7 @@ The prompt parameters as provided by the user when intializing or calling the Gu
 
 #### Defined in
 
-[src/history/call.ts:56](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L56)
+[src/history/call.ts:56](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L56)
 
 ___
 
@@ -282,7 +282,7 @@ Returns the total number of prompt tokens consumed during all iterations with th
 
 #### Defined in
 
-[src/history/call.ts:99](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L99)
+[src/history/call.ts:99](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L99)
 
 ___
 
@@ -294,7 +294,7 @@ The exact outputs from all LLM calls.
 
 #### Defined in
 
-[src/history/call.ts:109](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L109)
+[src/history/call.ts:109](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L109)
 
 ___
 
@@ -307,7 +307,7 @@ Does not include the initial instructions.
 
 #### Defined in
 
-[src/history/call.ts:83](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L83)
+[src/history/call.ts:83](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L83)
 
 ___
 
@@ -320,7 +320,7 @@ Does not include the initial prompt.
 
 #### Defined in
 
-[src/history/call.ts:67](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L67)
+[src/history/call.ts:67](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L67)
 
 ___
 
@@ -333,7 +333,7 @@ These would be incorporated into the prompt for the next LLM call if additional 
 
 #### Defined in
 
-[src/history/call.ts:137](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L137)
+[src/history/call.ts:137](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L137)
 
 ___
 
@@ -345,7 +345,7 @@ Returns the cumulative status of the run based on the validity of the final merg
 
 #### Defined in
 
-[src/history/call.ts:162](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L162)
+[src/history/call.ts:162](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L162)
 
 ___
 
@@ -357,7 +357,7 @@ Returns the total number of tokens consumed during all iterations with this call
 
 #### Defined in
 
-[src/history/call.ts:94](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L94)
+[src/history/call.ts:94](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L94)
 
 ___
 
@@ -370,7 +370,7 @@ This will only have a value if the Guard is in a passing state.
 
 #### Defined in
 
-[src/history/call.ts:131](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L131)
+[src/history/call.ts:131](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L131)
 
 ___
 
@@ -383,7 +383,7 @@ Could contain ReAsks.
 
 #### Defined in
 
-[src/history/call.ts:120](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L120)
+[src/history/call.ts:120](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L120)
 
 ___
 
@@ -395,7 +395,7 @@ The results of each individual validation performed on the LLM responses during 
 
 #### Defined in
 
-[src/history/call.ts:142](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L142)
+[src/history/call.ts:142](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L142)
 
 ## Accessors
 
@@ -413,7 +413,7 @@ The results of each individual validation performed on the LLM responses during 
 
 #### Defined in
 
-[src/history/call.ts:359](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L359)
+[src/history/call.ts:359](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L359)
 
 ___
 
@@ -431,7 +431,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:350](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L350)
+[src/history/call.ts:350](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L350)
 
 ___
 
@@ -449,7 +449,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:374](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L374)
+[src/history/call.ts:374](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L374)
 
 ___
 
@@ -467,7 +467,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:398](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L398)
+[src/history/call.ts:398](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L398)
 
 ___
 
@@ -485,7 +485,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:401](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L401)
+[src/history/call.ts:401](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L401)
 
 ___
 
@@ -503,7 +503,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:404](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L404)
+[src/history/call.ts:404](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L404)
 
 ___
 
@@ -521,7 +521,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:386](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L386)
+[src/history/call.ts:386](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L386)
 
 ___
 
@@ -539,7 +539,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:341](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L341)
+[src/history/call.ts:341](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L341)
 
 ___
 
@@ -557,7 +557,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:356](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L356)
+[src/history/call.ts:356](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L356)
 
 ___
 
@@ -575,7 +575,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:338](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L338)
+[src/history/call.ts:338](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L338)
 
 ___
 
@@ -593,7 +593,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:365](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L365)
+[src/history/call.ts:365](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L365)
 
 ___
 
@@ -611,7 +611,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:380](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L380)
+[src/history/call.ts:380](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L380)
 
 ___
 
@@ -629,7 +629,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:344](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L344)
+[src/history/call.ts:344](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L344)
 
 ___
 
@@ -647,7 +647,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:347](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L347)
+[src/history/call.ts:347](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L347)
 
 ___
 
@@ -665,7 +665,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:371](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L371)
+[src/history/call.ts:371](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L371)
 
 ___
 
@@ -683,7 +683,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:377](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L377)
+[src/history/call.ts:377](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L377)
 
 ___
 
@@ -701,7 +701,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:362](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L362)
+[src/history/call.ts:362](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L362)
 
 ___
 
@@ -719,7 +719,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:353](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L353)
+[src/history/call.ts:353](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L353)
 
 ___
 
@@ -737,7 +737,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:392](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L392)
+[src/history/call.ts:392](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L392)
 
 ___
 
@@ -755,7 +755,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:407](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L407)
+[src/history/call.ts:407](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L407)
 
 ___
 
@@ -773,7 +773,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:368](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L368)
+[src/history/call.ts:368](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L368)
 
 ___
 
@@ -791,7 +791,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:389](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L389)
+[src/history/call.ts:389](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L389)
 
 ___
 
@@ -809,7 +809,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:383](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L383)
+[src/history/call.ts:383](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L383)
 
 ___
 
@@ -827,7 +827,7 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:395](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L395)
+[src/history/call.ts:395](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L395)
 
 ## Methods
 
@@ -853,4 +853,4 @@ ___
 
 #### Defined in
 
-[src/history/call.ts:220](https://github.com/guardrails-ai/guardrails-js/blob/d45499d/src/history/call.ts#L220)
+[src/history/call.ts:220](https://github.com/guardrails-ai/guardrails-js/blob/45cd49e/src/history/call.ts#L220)
