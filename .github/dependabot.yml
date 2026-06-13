@@ -1,0 +1,26 @@
+# Managed by scripts/rollout_dependabot_config.py
+# Minor + patch updates group into one weekly PR per ecosystem;
+# major bumps open individually. GitHub Actions are grouped wholesale.
+version: 2
+
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    groups:
+      npm:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
